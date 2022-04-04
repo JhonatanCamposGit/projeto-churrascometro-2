@@ -1,0 +1,132 @@
+
+/* h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    text-align: center;
+
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: rgb(238, 144, 68);
+}
+
+
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    text-align: center;
+    line-height: 35px;
+    font-size: 2rem;
+    margin-top:20px;
+    padding: -1rem;
+    
+
+}
+
+.logo{
+    max-width: 20rem;
+    
+    margin-bottom: 10px;
+}
+
+.container{
+    
+    background-color:rgb(252, 248, 3);
+    max-width:400px;
+    max-height: 500PX;
+    margin:auto;
+    margin-top: 20px;
+    padding:30px;
+    border-radius:10px;   
+    box-sizing: border-box;
+}
+
+input{
+    width:100%;
+    display:block;
+    margin-bottom:10px;
+    box-sizing:border-box;
+    padding:5px;
+    border-radius:5px;
+    text-align:center;
+    font-size: 1.2rem;
+    border: none;     
+}
+input:focus{
+    outline:0;
+}
+
+select{
+    width:100%;
+    display:block;
+    margin-bottom:10px;
+    box-sizing:border-box;
+    padding:5px;
+    border-radius:5px;
+    text-align:center;
+    font-size: 1.2rem;
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color:rgb(34, 30, 30);
+    border: none;
+    background:rgb(214, 214, 1);
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+button:hover{
+    background-color: rgba(151, 151, 5, 0.541);
+}
+
+.result-info{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    margin-left:auto;
+    font-size: 1rem;
+    padding-top: 10px;  
+    margin-bottom: 10px;  
+}
+
+.result-block{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex ;
+    padding-top: 10px;
+    line-height: 25px;
+    font-size: 1rem;
+}
+.img-ico{    
+   display: flex;
+    max-width: 20px;
+    max-height: 20px;
+    margin-top:2px;
+    margin-right: 10px;
+    
+   
+}
+
+@media screen and (max-width:372px){
+    .logo{
+        max-width: 15rem;
+        
+        margin-bottom: 10px;
+    }
+
+
+}
+
+@media screen and (max-width:268px){
+    .logo{
+        max-width: 12rem;
+        
+        margin-bottom: 10px;
+    }
+
+
+}
