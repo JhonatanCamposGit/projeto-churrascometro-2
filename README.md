@@ -1,4 +1,4 @@
 # projeto-churrascometro-2
 
-Esse é um projeto de estudo do curso ProgBr, ele serve para calcular a qantidade de pessoas e a duração, calculando e mostrando a quantidade de carne, cerveja e refrigerante o usuário vai precisar para o seu churrasco 
+Esse é um projeto de estudo do curso ProgBr, ele serve para calcular a quantidade de pessoas e a duração, calculando e mostrando a quantidade de carne, cerveja e refrigerante o usuário vai precisar para o seu churrasco 
 
